@@ -60,7 +60,7 @@ public class MoveToGoalAgent : Agent
     }
 
 
-    public void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider other) //Gives or takes rewards based on reaching checkpoints or hits walls.
     {
         if (other.gameObject.name == "Checkpoint 1")
         {
