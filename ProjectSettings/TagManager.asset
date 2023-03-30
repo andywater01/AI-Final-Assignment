@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Ball
   - Wall
+  - EndWall
+  - FinishLine
+  - Wall2
   layers:
   - Default
   - TransparentFX
